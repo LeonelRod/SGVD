@@ -3,14 +3,12 @@
 # Sistema de control de versiones distribuido
 Un sistema de control de versiones distribuido (DVCS) es un sistema de control de versiones que funciona con un principio de hardware distribuido o, en algunos otros sistemas informáticos distribuidos, como una red virtual.
 
-# Techopedia explica el Sistema de control de versiones distribuido (DVCS)
-Con un sistema de control de versiones distribuido (DVCS), se rastrean diferentes revisiones de archivos en todo el sistema distribuido. Esto puede requerir estrategias específicas de consistencia para que los colaboradores u otros usuarios sepan qué está sucediendo con los archivos en un momento dado. Por ejemplo, un tipo popular de DVCS implica el uso de un repositorio como intermediario entre estaciones de trabajo y servidores. El repositorio contiene versiones revisadas de archivos, y el sistema de software verifica periódicamente con el repositorio para propósitos de consistencia.
+# Sistema de control de versiones distribuido (DVCS)
+Los Sistemas de Control de Versiones permiten gestionar los cambios realizados en el código fuente de programas o documentos. En los años 90 la mayoría de VCS era sistemas centralizados, en el que un servidor central guarda toda la información y los clientes se conectan al servidor. En el mundo del software libre, el sistema más popular fue CVS (Concurrent Versions System), sustituido a partir del 2004 por Subversion.
+
+En el año 2000 apareció BitKeeper, un sistema de control de versiones distribuido, en el que cada cliente mantiene su propia copia completa del repositorio y puede trabajar sin estar conectado al servidor. BitKeeper era un programa comercial, pero permitía su uso en proyectos de software libre. Entre 2002 y 2005, BitKeeper se utilizó en el desarrollo del kernel Linux, pero en 2005 BitKeeper revocó la licencia que había concedido a los programadores del kernel. Aunque para entonces ya había sistemas de control de versiones distribuidos libres (Monotone, darcs), Linus Torvalds decidió crear un nuevo programa, Git, que se publicó en abril de 2005.
 
 La idea esencial de un DVCS es poder rastrear los cambios en archivos o documentos individuales. Las diferentes medidas de seguimiento funcionan de manera diferente para permitir una investigación transparente sobre cómo han cambiado los archivos específicos y cuándo han cambiado. Algunos expertos de TI hablan sobre un proceso **"push / pull"** en el que se intercambia información entre servidores y otros componentes para ayudar a mantener las versiones de archivos en el sistema moderno y consistente.
-
-# Distribuido vs centralizado
-
- Los sistemas de control de versiones distribuidos (DVCS) utilizan un enfoque de igual a igual para el control de versiones, a diferencia del enfoque cliente-servidor de los sistemas centralizados. El control de revisión distribuido sincroniza los repositorios transfiriendo parches de igual a igual. No existe una única versión central del código base; en su lugar, cada usuario tiene una copia de trabajo y el historial de cambios completo.
 
 ## Las ventajas de DVCS (en comparación con los sistemas centralizados) incluyen:
 - Permite a los usuarios trabajar de forma productiva cuando no están conectados a una red.
